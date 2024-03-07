@@ -1,11 +1,15 @@
 # Import python packages
-import streamlit as st
+
+import streamlit
 import pandas
 import requests
 import snowflake 
 import snowflake.connector
 from urllib.error import URLError
+
+import streamlit as st
 from snowflake.snowpark.functions import col 
+
 
 # Write directly to the app
 st.title("Customize Your Smoothie :cup_with_straw:")
