@@ -1,6 +1,5 @@
 # Import python packages
 import streamlit as st
-import streamlit
 import pandas
 import requests
 import snowflake 
